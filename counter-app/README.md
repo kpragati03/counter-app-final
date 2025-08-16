@@ -7,7 +7,7 @@ This project is a simple, interactive counter application built with React to de
 This app allows users to increment, decrement, and reset a counter. It includes features like setting custom step sizes, enabling/disabling negative values, and disabling buttons when upper or lower bounds are reached. The state is also persisted using local storage.
 
 ### 🔗 GitHub Repository Link
-[Your GitHub Repository Link Here]
+https://github.com/kpragati03/counter-app
 
 ### 🌐 Live Demo Link
 [Your Live Demo Link Here]
@@ -21,7 +21,7 @@ This app allows users to increment, decrement, and reset a counter. It includes 
 ### ⚙️ How to Run the App Locally
 1.  **Clone the repository:**
     ```bash
-    git clone [Your GitHub Repository Link Here]
+    git clone [https://github.com/kpragati03/counter-app](https://github.com/kpragati03/counter-app)
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -44,10 +44,21 @@ This app allows users to increment, decrement, and reset a counter. It includes 
 - **Solution:** I used the `useEffect` hook to store the state in `localStorage` and read from `localStorage` to set the initial state.
 
 ### 📸 Screenshots
+- **1. Default State**
+  ![Default State](default%20page.png)
+- **2. Upper Bound**
+  ![Upper Bound](upper%20bound.png)
+- **3. Lower Bound**
+  ![Lower Bound](lower%20bound.png)
+- **4. Negative Values**
+  ![Negative Values](allow%20negative%20values.png)
 
-
-### 🎥 Demo Video
-[Optional: Your Demo Video Link Here]
+### ⌨️ Sample Input & Output
+- **Increment button click:** When the `Increment` button is clicked, the counter value increases by the current step size (default is 1).
+- **Step size change:** The user can enter a custom step size (e.g., 5). When the `Increment` or `Decrement` button is clicked, the counter value changes by 5.
+- **Upper/Lower Bound:**
+  - When the counter reaches `100`, the `Increment` button is automatically disabled.
+  - When the counter reaches `-10`, the `Decrement` button is automatically disabled.
 
 ### ✅ Feature List
 - Displays the current counter value.
