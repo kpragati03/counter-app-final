@@ -9,8 +9,8 @@ This app allows users to increment, decrement, and reset a counter. It includes 
 ### 🔗 GitHub Repository Link
 https://github.com/kpragati03/counter-app
 
-### 🌐 Live Demo Link
-[Your Live Demo Link Here]
+### 🌐 Live Demo Video Link
+(https://drive.google.com/file/d/1qcnGkh5rzc_ftqUwUbhGQ6mkX4Yc33pX/view?usp=drive_link)
 
 ### 🛠️ Technologies Used
 - **React**: For building the user interface.
